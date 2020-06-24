@@ -1,0 +1,11 @@
+<div class="col-xl-4 col-md-6" *ngFor="let product of products; index as productId">
+    <div [routerLink]="['/products', productId]" class="changecursor">
+      <img src="{{ product.img }}">
+      <h3>
+        {{ product.name }}
+      </h3>
+    </div>
+  <p *ngIf="product.description">
+    Description: {{ product.description }}
+  </p>
+</div>
