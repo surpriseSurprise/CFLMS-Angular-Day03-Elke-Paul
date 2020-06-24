@@ -1,6 +1,6 @@
 export const products = [
     {
-      img: 'https://www.petplay.com/media/catalog/product/cache/1/small_image/213x125/9df78eab33525d08d6e5fb8d27136e95/l/o/lounge_bed_orange_45degree_4.jpg',
+      img: 'https://www.petplay.com/media/catalog/product/cache/1/image/560x386/9df78eab33525d08d6e5fb8d27136e95/l/o/lounge_bed_orange_45degree_4.jpg',
       name: 'URBAN PLUSH BED',
       price: 98.00,
       description: 'Kick up your paws and curl up with the Urban Plush Dog Bed! This cozy retreat will entice your pup with its combination of posh design and lasting comfort. Even the biggest doggie diva will not be able to resist the temptation to unwind and rest its head on this elevated side dog bed. This bed has received high-paws from office dogs at P.L.A.Y.'

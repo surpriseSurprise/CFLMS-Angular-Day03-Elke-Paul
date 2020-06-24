@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { CartService } from '../cart.service';
-
 import { products } from '../products';
+import Swal from 'sweetalert2'
+
 
 
 @Component({
@@ -15,7 +16,7 @@ export class ProductDetailsComponent implements OnInit {
   constructor(private route: ActivatedRoute, private cartService: CartService) { }
 
   addToCart(product) {
-    window.alert('Your product has been added to the cart!');
+    Swal.fire('GOOD CHOOICE', 'YOUR PRODUCT WAS ADDED TO THE CHART!', 'success')
     this.cartService.addToCart(product);
   }
 
